@@ -91,8 +91,12 @@ tools = [
     )
 ]
 
-# Initialize agent (requires LLM configuration)
-# agent = initialize_agent(tools, llm, agent="zero-shot-react-description")
+# Initialize agent with your LLM
+# Note: You need to configure an LLM (e.g., OpenAI) before using the agent
+# Example:
+# from langchain.llms import OpenAI
+# llm = OpenAI(temperature=0)
+# agent = initialize_agent(tools, llm, agent="zero-shot-react-description", verbose=True)
 ```
 
 ## Project Structure
